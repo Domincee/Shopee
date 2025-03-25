@@ -1,0 +1,150 @@
+.navbar-container{
+    background-color: #dd6f22;
+    display: flex;
+    padding: 10px 155px 0 155px;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+
+}
+
+.links li i{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.media-links{
+    display: flex;
+    gap: 5px;
+}
+.media-links a i{
+    font-size: 1.4rem;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.item{
+    display: flex;
+    position: relative;
+  
+}
+
+
+
+.dropdown-notification{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -350px;
+    transform: translateX(-350px);
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 320px;
+    border-radius: 8px;
+    box-shadow: 0 0 2px black;
+    text-align: center;
+}
+
+
+
+.dropdown-lang{
+    position: absolute;
+    background-color: white;
+    bottom: -120px;
+    padding: 20px 10px 20px 10px;
+    transform: translateX(-70px);
+    width: 150px;
+    box-shadow: 0 0 2px black;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.dropdown-lang p{
+    color: black;
+}
+
+.img-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 200%;
+}
+.img-container img{
+    width: 100px;
+    height: 100px;
+}
+.img-container p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+}
+.signup-login{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    display: flex;
+    background-color: rgb(241, 242, 246);
+  
+}
+
+.signup-login a{
+    width: 100%;
+    height: 100%;
+    background-color: #f1ede9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.signup-login a:hover{
+    background-color: #c5c0c041;
+    color: rgb(231, 35, 35);
+}
+
+.user-signup-login{
+    display: flex;
+    gap: 10px;
+
+ 
+}
+.user-signup-login a{
+    font-weight: 500;
+}
+
+.item.notification i{
+   display: flex;
+}
+
+/* HOVERR EFFECT */
+.item a:hover{
+    color: #b6b6b6;
+}
+.signup-login a:hover{
+    color: black;
+}
+.media-links i:hover{
+    color: #aaa6a6;
+}
+.item.notification i:hover,
+.item.notification i:hover > *
+
+{
+    color: #aaa6a6;
+}
+/* HIDE QR */
+.qr-code{
+    display: none;
+}
+
+/* HIDE LOGIN NOTIF */
+.notif-container{
+    display: none;
+}
